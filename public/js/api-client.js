@@ -1,6 +1,6 @@
 'use strict';
 
-import { send } from './api-client-backend-fetch';
+import { send } from './api-client-backend-fetch.js';
 
 /**
  * Request to specified URL with GET method.

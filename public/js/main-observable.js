@@ -3,7 +3,7 @@
 import { fromEvent } from 'https://unpkg.com/rxjs/_esm2015';
 import { first, filter } from 'https://unpkg.com/rxjs/_esm2015/operators';
 
-import { getUserInputMessage, addChatMessage, cmdFilter } from './chat.js';
+import { getUserInputMessage, addChatMessage } from './chat.js';
 import { chatbot } from './chatbot-api-proxy.js';
 
 fromEvent(document, 'DOMContentLoaded')
