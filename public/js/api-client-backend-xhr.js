@@ -10,7 +10,7 @@
  * 
  * @returns Promise of response.
  */
-export function send(url, method, data, headers) {
+export async function send(url, method, data, headers) {
     method = method.toUpperCase();
     
     if(data && (method === 'GET')) {
