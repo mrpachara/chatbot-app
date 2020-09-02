@@ -1,0 +1,34 @@
+#chat-display {
+    display: flex;
+    flex-flow: column;
+}
+
+.chat-message-container {
+    display: flex;
+    flex-flow: row;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.chat-message-container.cl-me {
+    justify-content: flex-end;
+}
+
+.chat-message-container.cl-friends {
+    justify-content: flex-start;
+}
+
+.chat-message {
+    white-space: pre;
+    border-radius: 6px;
+    flex: auto 0 0;
+    padding: 6px;
+}
+
+.cl-me>.chat-message {
+    background-color: blue;
+}
+
+.cl-friends>.chat-message {
+    background-color: green;
+}
