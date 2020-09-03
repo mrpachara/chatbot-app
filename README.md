@@ -45,3 +45,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Running the project
 
     $ npx http-start
+
+## Note
+
+If you want to use `./js/chatbot-api-proxy.js` you have to clone [chatbot-api](https://github.com/mrpachara/chatbot-api) project.
